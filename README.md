@@ -42,6 +42,7 @@ Here's your chance to get creative; is there anything else you could do for mobi
 
 ## Submitting the test over to us
 
+1. Publish the theme - shopify theme push - so it's live.
 1. Email us a link to the dev store you created along with a password if the front end is protected with a password.
 2. Email us a link to your git repository.
 3. Feel free to give us any important info you have or feedback on how things went.
