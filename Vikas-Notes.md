@@ -1,0 +1,4 @@
+- Used `shopify populate products —count 5` to seed initial products.
+- [Link to development store](https://warriors22-merch.myshopify.com/)
+- Password to the store `risahy`
+- Used the `cart_clear_url` from [routes](https://shopify.dev/api/liquid/objects/routes#routes-cart_clear_url) object to POST and clear the cart.
