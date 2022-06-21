@@ -344,6 +344,8 @@ a.product__text {
 }
 
 .product .price__container {
+  /* Change the colour (something vivid, like red) of the Price on the product detail page - a.k.a. PDP - commit this into the repository. */
+  color: #E30000;
   margin-bottom: 0.5rem;
 }
 
