@@ -988,6 +988,13 @@ summary::-webkit-details-marker {
   margin-bottom: 0;
 }
 
+/* #3 Change the border of a product that shows on listing page, a.k.a. PLP or Collection. - make the change really obvious and commit this into the repo. */
+
+#product-grid .grid__item {
+  border: .5rem dashed rgb(166, 181, 2);
+  border-radius: .5rem;
+}
+
 .grid__item {
   width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
   max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
