@@ -49,6 +49,13 @@
           "settings": {
           }
         },
+        "extra_info": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Extra Info",
+            "icon": "question_mark"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -101,6 +108,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "extra_info",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
