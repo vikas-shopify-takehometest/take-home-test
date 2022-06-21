@@ -292,6 +292,8 @@
     <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
     <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true" role="status">{{ 'accessibility.loading' | t }}</p>
   </form>
+  {% comment %} https://shopify.dev/api/liquid/objects/routes {% endcomment %}
+  <form action="{{ routes.cart_clear_url }}" method="post" id="empty_cart"></form>
 </cart-items>
 
 {% schema %}

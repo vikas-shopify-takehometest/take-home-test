@@ -10,6 +10,7 @@ cart-items.is-empty .title-wrapper-with-link,
   display: none;
 }
 
+
 .is-empty .cart__empty-text,
 .is-empty .cart__warnings {
   display: block;
@@ -187,6 +188,14 @@ cart-items {
   margin: 2.2rem 0 1.6rem auto;
   text-align: center;
   display: block;
+}
+
+.cart__empty-button {
+  max-width: 36rem;
+  margin-top: 1rem;
+  color: red;
+  background-color: white;
+  border: 2px solid red;
 }
 
 .cart__checkout-button {

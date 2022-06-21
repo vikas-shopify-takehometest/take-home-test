@@ -59,6 +59,11 @@
                   </button>
                 </noscript>
 
+                {% comment %} #4 Create a button on the cart page that makes an AJAX call to clear the cart contents {% endcomment %}
+                <button type="submit" id="empty-cart" class="cart__empty-button button" name="empty-cart"{% if cart == empty %} disabled{% endif %} form="empty_cart">
+                  {{ 'sections.cart.empty_cart' | t }}
+                </button>
+
                 <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
                   {{ 'sections.cart.checkout' | t }}
                 </button>
